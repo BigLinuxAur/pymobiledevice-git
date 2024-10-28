@@ -18,7 +18,7 @@ depends=('python-m2crypto'
 	 'python-bpylist2'
 	 'python-pygments'
 	 'usbmuxd')
-makedepends=('git')
+makedepends=('python-setuptools' 'git')
 source=("pymobiledevice::git+$url.git#branch=py3")
 md5sums=('SKIP')
 
